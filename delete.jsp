@@ -27,10 +27,7 @@
     		<span>商品产地:</span>
         	<input type="text"	readonly="readonly" id="origin" name='origin' value="<%=request.getParameter("origin") %>" />
     	</li>
-    	<li>
-    		<span>商品标题:</span>
-        	<input type="text"	readonly="readonly" id="sub_title" name='sub_title' value="<%=request.getParameter("sub_title") %>" />
-    	</li>
+    
     	<li>
     		<input type="submit" id="delete" value="确认删除"></input>
     	</li>
