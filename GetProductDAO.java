@@ -27,7 +27,7 @@ public class GetProductDAO {
 			if(name.equals("")) {
 				sql ="select * from products";
 			} else {
-				sql =String.Format("select * from products where name like '%{0}%' ",name);
+				sql = "select * from products where name like '%"+ name + "%'";
 			}
 			
 			rs = stmt.executeQuery(sql);
